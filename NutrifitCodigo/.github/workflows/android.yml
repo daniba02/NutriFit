@@ -1,0 +1,39 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+      
+    - name: Build with Gradle
+      run: ./gradlew build
+    #Running units tests
+    - name: Unit test
+      uses: actions/upload-artifact@v3
+      with:
+        name: test_unit
+        path: app/src/test/java/es/ucm/fdi/hu1
+    #Running Integration Tests
+    - name: Integration Tests
+      uses: actions/upload-artifact@v3
+      with:
+        name: test_unit
+        path: app/src/androidTest/java/es/ucm/fdi/hu1

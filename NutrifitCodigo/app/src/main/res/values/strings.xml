@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NutriFit</string>
+    <string name="ejercicios">Ejercicios</string>
+    <string name="rutinas">Rutinas</string>
+</resources>

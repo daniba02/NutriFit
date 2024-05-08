@@ -1,0 +1,17 @@
+1. Objetivos
+Comprobar que la aplicación responde como debe ante diferentes casos y revisar que en los mensaje mostrados en la interfaz no hay errores ortográficos o gramaticales
+
+2. Desarrollo de la Prueba
+HU: Crear Ejercicio
+
+Casos Comprobados:
+- Si la aplicación tiene datos previos en la base de datos, se muestran de manera correcta, además de la información propia de cada ejercicio.
+- Si la aplicación no tiene datos en la base de datos, se muestra una lista vacia.
+- Si el usuario pulsa cualquier botón, estos responden como se espera
+- Si se crea un ejercicio sin nombre, el sistema no deja guardar.
+- Si se crea un ejercicio sin descripción, el sistema deja guardar.
+
+3. Resultados
+La aplicación solo contiene botones funcionales, los ejercicios se crean siguiendo las reglas descritas y la aplicación responde de manera correcta a cada caso de prueba.
+
+No se encontraron errores durante la prueba.

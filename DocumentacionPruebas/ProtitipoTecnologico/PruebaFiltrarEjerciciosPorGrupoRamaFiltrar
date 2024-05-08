@@ -1,0 +1,26 @@
+1. Objetivos
+
+Validar que la funcionalidad de filtrado de ejercicios por grupo muscular funcione correctamente y que permita a los usuarios visualizar ejercicios pertenecientes a categorías específicas. Los objetivos específicos son:
+
+Asegurar que los ejercicios se puedan añadir con la clasificación de grupo muscular correspondiente.
+Confirmar que el sistema de filtrado muestre únicamente los ejercicios del grupo muscular seleccionado.
+Verificar que los usuarios puedan alternar entre diferentes filtros de grupo muscular y que la lista de ejercicios se actualice acordemente.
+
+2. Desarrollo de la Prueba
+
+HU: Filtrar Ejercicio por Grupo Muscular
+
+Casos Comprobados:
+
+Creación de ejercicios asignados a distintos grupos musculares para probar la funcionalidad de filtrado.
+Uso de chips o etiquetas de filtro para seleccionar y deseleccionar grupos musculares y observar los cambios en la lista de ejercicios.
+Validación de que el filtro "NINGUNO" muestra ejercicios que no tienen un grupo muscular asignado, en lugar de mostrar todos los ejercicios.
+Verificación de que la selección de múltiples filtros de grupos musculares muestra correctamente los ejercicios de todas las categorías seleccionadas.
+Prueba de que al alternar entre diferentes grupos musculares, los ejercicios mostrados corresponden exactamente a las selecciones hechas.
+
+3. Resultados
+
+La aplicación permite la adición correcta de ejercicios con sus respectivos grupos musculares.
+El filtrado de ejercicios por grupo muscular funciona como se espera, actualizando la lista de ejercicios según los filtros aplicados por el usuario.
+La funcionalidad de los chips de filtro funciona correctamente, permitiendo al usuario una navegación intuitiva y eficiente a través de diferentes categorías de ejercicios.
+No se encontraron errores en el proceso de filtrado, y la interfaz respondió adecuadamente a las interacciones del usuario.

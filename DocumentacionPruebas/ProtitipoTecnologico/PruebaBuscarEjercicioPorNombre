@@ -1,0 +1,25 @@
+1. Objetivos
+
+Comprobar la efectividad de la función de búsqueda por nombre en la aplicación, asegurando que los usuarios puedan encontrar ejercicios específicos a través de una función de búsqueda que responde de forma precisa y rápida. Se pretende:
+
+Confirmar que la búsqueda devuelve resultados exactos y parciales basados en el texto introducido.
+Validar que la búsqueda es capaz de manejar cadenas vacías y devolver a un estado donde se muestran todos los ejercicios.
+Asegurar que la interfaz de usuario responde adecuadamente al limpiar la consulta de búsqueda.
+
+2. Desarrollo de la Prueba
+
+HU: Buscar Ejercicio por Nombre
+
+Casos Comprobados:
+
+Búsqueda de ejercicios por nombre completo y por fragmentos de texto para verificar la correspondencia de los resultados.
+Funcionalidad de limpieza de la barra de búsqueda para asegurar que los usuarios puedan realizar múltiples búsquedas sucesivamente sin residuos de búsquedas anteriores.
+Verificación de la respuesta del sistema cuando no se encuentran coincidencias para la consulta de búsqueda introducida.
+Comprobación de la búsqueda con una cadena vacía para confirmar que todos los ejercicios vuelven a estar visibles.
+
+3. Resultados
+
+La búsqueda por nombre funcionó correctamente, mostrando ejercicios que coincidían con los términos de búsqueda introducidos.
+Al limpiar la consulta de búsqueda, la lista de ejercicios se restableció correctamente para mostrar todos los ejercicios disponibles.
+Cuando se introdujeron términos de búsqueda sin coincidencias, la aplicación manejó adecuadamente la ausencia de resultados.
+La función de búsqueda respondió rápidamente a todas las entradas y modificaciones de texto, lo que refleja una experiencia de usuario fluida y eficiente.

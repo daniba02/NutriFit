@@ -1,0 +1,25 @@
+1. Objetivos
+
+Evaluar la funcionalidad de filtrado por grupo muscular para identificar posibles defectos o comportamientos inesperados en la aplicación. Los objetivos específicos incluyen:
+
+Verificar que se puedan añadir ejercicios y asignarlos a grupos musculares específicos.
+Probar la capacidad del sistema de filtrar ejercicios basados en la selección de grupos musculares.
+Confirmar que la selección de "NINGUNO" muestra ejercicios sin grupo muscular asignado.
+
+2. Desarrollo de la Prueba
+
+HU: Filtrar Ejercicio por Grupo Muscular
+
+Casos Comprobados:
+
+Creación de ejercicios asignados a distintos grupos musculares.
+Uso de los chips de filtrado para seleccionar y deseleccionar grupos musculares.
+Comprobación de que al seleccionar "NINGUNO", el sistema muestra correctamente los ejercicios sin grupo muscular asignado.
+Alternancia entre filtros de grupos musculares y observación de la actualización correspondiente en la lista de ejercicios.
+Validación de que la selección de múltiples grupos musculares filtra los ejercicios de todas las categorías seleccionadas.
+
+3. Resultados
+
+Los ejercicios se añadieron y se asignaron correctamente a los grupos musculares designados.
+Al seleccionar un grupo muscular específico, como "PECHO" o "BICEPS", y luego volver a "NINGUNO", la lista no se actualizó adecuadamente para reflejar los cambios. Este es uno de los fallos que se aprecian en el filtrado.
+La selección de chips de filtrado no actualizó la lista de ejercicios como se esperaba en general, indicando un defecto en la funcionalidad de filtrado. Al filtrar nunca aparecen ejercicios.

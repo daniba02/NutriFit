@@ -1,0 +1,25 @@
+1. Objetivos
+
+Validar que la funcionalidad para crear ejercicios dentro de la aplicación se comporta como se espera, incluso con datos avanzados. Esto incluye:
+
+La habilidad de añadir ejercicios con todos los campos completos, incluyendo selección de grupo muscular y tipo de ejercicio.
+La capacidad de manejar casos donde ciertos datos avanzados no son proporcionados.
+Asegurar que la interfaz de usuario responde adecuadamente a las interacciones y que se muestran los mensajes de confirmación o error correspondientes.
+
+2. Desarrollo de la Prueba
+
+HU: Crear Ejercicio con Datos Avanzados
+
+Casos Comprobados:
+
+AddEjercicioAvanzadoActivityTest: Comprobación de la funcionalidad de adición con datos completos. Incluye la selección de grupo muscular y tipo de ejercicio desde spinners, ingreso de texto en campos de título y descripción y la acción de guardar el ejercicio.
+AddEjercicioSinAvanzadosActivityTest: Comprobación de la adición de ejercicios con solo título y descripción, sin selección avanzada de datos como el grupo muscular o tipo de ejercicio.
+AddEjercicioSinAvanzadoActivityTest: Prueba la funcionalidad de agregar un ejercicio proporcionando el grupo muscular pero sin seleccionar el tipo de ejercicio específico.
+AddEjercicioAvanzadoVacioErrorActivityTest: Evalúa el comportamiento de la aplicación cuando se intenta guardar un ejercicio avanzado sin completar ningún dato, esperando que el sistema impida guardar debido a la falta de información.
+
+3. Resultados
+
+AddEjercicioAvanzadoActivityTest: Los ejercicios se agregan correctamente con todos los datos avanzados requeridos.
+AddEjercicioSinAvanzadosActivityTest: La aplicación permite agregar ejercicios con los datos mínimos necesarios y omite correctamente la selección avanzada cuando no se proporciona.
+AddEjercicioSinAvanzadoActivityTest: Se permite la creación de ejercicios especificando solo algunos datos avanzados, como el grupo muscular.
+AddEjercicioAvanzadoVacioErrorActivityTest: Se impide la adición de ejercicios sin ningún dato, lo cual es el comportamiento esperado para evitar ejercicios incompletos.

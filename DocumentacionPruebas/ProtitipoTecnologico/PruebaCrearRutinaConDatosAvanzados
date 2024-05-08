@@ -1,0 +1,25 @@
+1. Objetivos
+
+Verificar que la funcionalidad de creación de rutinas en la aplicación maneja correctamente la inclusión de datos avanzados y responde adecuadamente cuando se dejan campos vacíos o se intenta crear rutinas duplicadas. Los objetivos específicos incluyen:
+
+Confirmar que se pueden añadir rutinas con detalles completos y seleccionar grupos musculares específicos.
+Asegurar que la aplicación impide la creación de rutinas cuando no se proporciona información esencial.
+Validar que no se puedan crear rutinas duplicadas con el mismo nombre.
+
+2. Desarrollo de la Prueba
+
+HU: Crear Rutina con Datos Avanzados
+
+Casos Comprobados:
+
+AddRutinaDatosAvanzadosActivityTest: Evalúa la creación de una rutina con todos los campos requeridos, incluyendo la selección de un grupo muscular específico y la adición de un título y detalles de la rutina.
+AddRutinaAvanzadaVaciaErrorActivityTest: Prueba la robustez de la aplicación al intentar guardar una rutina sin proporcionar ningún dato, verificando que la aplicación no lo permite.
+AddRutinaSinAvanzadoActivityTest: Comprueba que la aplicación puede manejar la creación de rutinas sin seleccionar datos avanzados como el grupo muscular.
+CrearRutinaAvanzadaNoRepetidaActivityTest: Verifica que la aplicación previene la creación de rutinas con nombres duplicados y permite cambiar el nombre para completar el guardado de la rutina.
+
+3. Resultados
+
+AddRutinaDatosAvanzadosActivityTest: La rutina se crea exitosamente con todos los datos provistos, indicando que la funcionalidad de datos avanzados funciona como se espera.
+AddRutinaAvanzadaVaciaErrorActivityTest: Como se anticipaba, la aplicación no permite guardar la rutina debido a la falta de datos, asegurando así que no se añadan rutinas incompletas.
+AddRutinaSinAvanzadoActivityTest: Se confirma que es posible crear una rutina sin seleccionar el grupo muscular, demostrando flexibilidad en los datos requeridos para la creación de rutinas.
+CrearRutinaAvanzadaNoRepetidaActivityTest: La prueba muestra que no se pueden añadir rutinas con nombres duplicados, garantizando la unicidad de las rutinas en la aplicación.

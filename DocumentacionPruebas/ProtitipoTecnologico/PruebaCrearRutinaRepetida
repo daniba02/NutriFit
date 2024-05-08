@@ -1,0 +1,24 @@
+1. Objetivos
+
+Verificar la nueva funcionalidad que evita la creación de rutinas con nombres duplicados, mejorando la gestión de datos y la experiencia del usuario. Los objetivos específicos son:
+
+Asegurar que el sistema rechaza intentos de guardar rutinas con un nombre que ya existe en la base de datos.
+Confirmar que se muestra un mensaje de error o aviso cuando se intenta guardar una rutina con un nombre repetido.
+Validar que tras cambiar el nombre a uno no repetido permita la creación de la rutina.
+
+2. Desarrollo de la Prueba
+
+HU: Crear Rutina (Correción)
+
+Casos Comprobados:
+
+Creación de una rutina con un nombre único y su correcta adición a la base de datos.
+Intento de creación de una nueva rutina usando un nombre ya existente y la recepción de un mensaje de error adecuado.
+Modificación de una rutina existente para cambiar su nombre por otro que ya está en uso y la verificación de que no se permite la acción.
+Cambio del nombre de una rutina existente a otro nombre que no está en uso y su correcta actualización.
+
+3. Resultados
+
+El sistema correctamente impide la creación de rutinas con nombres duplicados, mostrando un mensaje de error cuando se intenta hacerlo.
+Los usuarios pueden modificar las rutinas existentes sin problemas, siempre y cuando no intenten usar un nombre ya ocupado por otra rutina.
+La aplicación gestiona adecuadamente los errores, manteniendo la integridad de los datos y proporcionando retroalimentación útil al usuario para corregir el problema.

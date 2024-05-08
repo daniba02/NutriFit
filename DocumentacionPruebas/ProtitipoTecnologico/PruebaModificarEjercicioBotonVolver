@@ -1,0 +1,23 @@
+1. Objetivos
+
+Validar la corrección y el funcionamiento adecuado del botón "Volver" durante la edición de ejercicios, asegurando que los usuarios puedan regresar a la lista de ejercicios después de abrir uno para modificarlo. Los objetivos incluyen:
+
+Confirmar que el botón "Volver" lleva al usuario de vuelta a la lista de ejercicios después de intentar o completar una modificación.
+Verificar que el flujo de navegación es consistente y no produce errores o comportamientos inesperados después de su uso.
+Asegurar que los cambios en la funcionalidad no afecten otras operaciones dentro de la aplicación.
+
+2. Desarrollo de la Prueba
+
+HU: Modificar Ejercicio (Corrección)
+
+Casos Comprobados:
+
+Funcionamiento del botón "Volver" para regresar a la lista de ejercicios desde la pantalla de edición.
+Integridad de la funcionalidad después de regresar, verificando que los ejercicios se listan correctamente y la aplicación responde adecuadamente.
+Comprobación de que no se presentan errores de navegación o de la interfaz de usuario después de usar el botón "Volver".
+
+3. Resultados
+
+Al utilizar el botón "Volver", el usuario fue correctamente redirigido de vuelta a la lista principal de ejercicios, demostrando que el error previo ha sido solucionado efectivamente.
+La lista de ejercicios se cargó adecuadamente sin errores y permitió una interacción continua, lo cual indica que la estabilidad de la navegación ha sido asegurada.
+No se detectaron errores de interfaz o fallos que afectaran la experiencia del usuario, confirmando que la corrección fue implementada correctamente.

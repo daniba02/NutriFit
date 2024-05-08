@@ -1,0 +1,23 @@
+1. Objetivos
+
+Evaluar la funcionalidad de visualización de detalles de rutinas dentro de la aplicación, asegurando que los usuarios puedan acceder y revisar la información completa de cualquier rutina específica. Los objetivos incluyen:
+
+Confirmar que la información detallada de la rutina se muestra correctamente al seleccionar una rutina específica.
+Verificar que la interfaz de usuario permite un fácil acceso y navegación de regreso tras visualizar los detalles.
+Asegurar la integridad de los datos mostrados, como el nombre de la rutina, detalles específicos, y la categoría del grupo muscular asignado.
+
+2. Desarrollo de la Prueba
+
+HU: Ver Información de la Rutina
+
+Casos Comprobados:
+
+Funcionamiento del acceso a los detalles de la rutina mediante la selección en la lista de rutinas disponibles.
+Correcta visualización de todos los campos de detalles esperados, como título de la rutina, descripción, y grupo muscular.
+Capacidad de la interfaz para manejar el regreso a la lista principal sin pérdida de contexto o funcionalidad.
+
+3. Resultados
+
+La selección de una rutina de la lista llevó correctamente a la pantalla de detalles, donde toda la información relevante fue mostrada adecuadamente.
+Los detalles de la rutina, incluyendo el nombre y la descripción específica, fueron presentados claramente y sin errores.
+Los botones y acciones de navegación funcionaron como se esperaba, permitiendo al usuario volver a la vista anterior sin problemas, lo que sugiere una buena implementación de la navegación dentro de la aplicación.

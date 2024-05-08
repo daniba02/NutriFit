@@ -1,0 +1,23 @@
+1. Objetivos
+
+Evaluar la capacidad de filtrado de ejercicios por tipo en la aplicación, permitiendo a los usuarios seleccionar ejercicios basados en categorías como fuerza, cardio, etc. Los objetivos de estas pruebas son:
+
+Asegurar que los filtros de tipo funcionen correctamente, mostrando solo los ejercicios que coincidan con el tipo seleccionado.
+Confirmar que el filtro "NINGUNO" identifique y muestre los ejercicios que no están clasificados bajo ningún tipo específico.
+Verificar la facilidad de uso y la respuesta de la interfaz al cambiar entre diferentes filtros.
+
+2. Desarrollo de la Prueba
+
+HU: Filtrar Ejercicio por Tipo
+
+Casos Comprobados:
+
+Aplicación de filtros para los tipos de ejercicios específicos (como cardio y fuerza) y verificación de que solo se muestren los ejercicios correspondientes a esos tipos.
+Funcionamiento del filtro "NINGUNO" para mostrar correctamente los ejercicios que no tienen un tipo asignado.
+Capacidad de la interfaz de usuario para manejar activaciones y desactivaciones sucesivas de filtros sin errores de rendimiento.
+
+3. Resultados
+
+Los filtros de tipo de ejercicio funcionaron con precisión, filtrando los ejercicios según el tipo seleccionado y mostrando los resultados esperados para cada categoría.
+El filtro "NINGUNO" fue efectivo, mostrando todos los ejercicios que no tienen un tipo asignado, lo que facilita a los usuarios encontrar ejercicios que no se ajustan a las categorías típicas.
+La interfaz respondió de manera eficiente a los cambios en la selección de filtros, actualizando la lista de ejercicios sin demoras ni problemas técnicos.

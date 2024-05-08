@@ -1,0 +1,22 @@
+1. Objetivos
+
+Validar la funcionalidad de filtrado de rutinas por grupo muscular en la aplicación para asegurar que los usuarios puedan visualizar las rutinas que corresponden específicamente a grupos musculares seleccionados. Los objetivos específicos son:
+
+Comprobar la precisión del filtrado al seleccionar diferentes grupos musculares.
+Verificar la respuesta de la interfaz al activar y desactivar filtros múltiples.
+
+2. Desarrollo de la Prueba
+
+HU: Filtrar Rutinas por Grupo Muscular
+
+Casos Comprobados:
+
+Aplicación de filtros individuales para cada grupo muscular y observación de los resultados para asegurar que solo las rutinas correspondientes sean mostradas.
+Funcionalidad de selección y deselección de filtros para verificar la capacidad de la interfaz de responder a múltiples cambios sin errores.
+Evaluación de la capacidad de la aplicación para manejar filtros múltiples, mostrando rutinas que coinciden con cualquier grupo muscular seleccionado.
+
+3. Resultados
+
+El filtrado por grupo muscular fue efectivo y preciso, mostrando únicamente las rutinas que correspondían a los grupos musculares seleccionados.
+Los cambios en la selección de filtros se manejaron sin problemas, con actualizaciones inmediatas en la lista de rutinas mostradas.
+La aplicación respondió bien al manejo de múltiples filtros, combinando correctamente los grupos musculares sin sobrecargar la interfaz de usuario ni el sistema.

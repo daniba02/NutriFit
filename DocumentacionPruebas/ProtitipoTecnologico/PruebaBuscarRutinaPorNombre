@@ -1,0 +1,25 @@
+1. Objetivos
+
+Evaluar la funcionalidad de búsqueda de rutinas por nombre para asegurarse de que los usuarios puedan localizar rápidamente las rutinas específicas utilizando la barra de búsqueda. Específicamente, se pretende:
+
+Confirmar que los resultados de la búsqueda sean precisos tanto para consultas completas como parciales.
+Verificar que la búsqueda maneje adecuadamente las cadenas de texto vacías y muestre todos los resultados disponibles.
+Asegurar que la funcionalidad de borrado de la consulta de búsqueda reinicie la vista de resultados de forma efectiva.
+
+2. Desarrollo de la Prueba
+
+HU: Buscar Rutina por Nombre
+
+Casos Comprobados:
+
+Búsqueda de rutinas por nombre completo y por fragmentos de texto.
+Prueba de la funcionalidad de borrado de búsqueda para garantizar que los usuarios puedan realizar nuevas búsquedas sin interferencias de búsquedas anteriores.
+Verificación de la ausencia de resultados cuando se busca una cadena que no coincide con ninguna rutina existente.
+Validación del comportamiento de la aplicación cuando se busca con una cadena de texto vacía, esperando que se muestren todas las rutinas.
+
+3. Resultados
+
+La búsqueda por nombre fue precisa y reflejó los resultados correctos para cada término introducido, tanto en búsquedas completas como parciales.
+La función de borrado de la consulta de búsqueda limpió efectivamente el campo de búsqueda y restableció la lista de rutinas a su estado completo.
+Cuando se introdujeron términos de búsqueda no coincidentes, se manejó correctamente al no mostrar resultados.
+La búsqueda con una cadena de texto vacía mostró todas las rutinas disponibles, como se esperaba.

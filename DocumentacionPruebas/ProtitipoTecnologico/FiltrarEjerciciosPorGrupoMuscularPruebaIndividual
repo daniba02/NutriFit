@@ -1,0 +1,25 @@
+1. Objetivos
+
+Validar la funcionalidad del filtrado de ejercicios por grupo muscular, asegurando que los usuarios puedan encontrar eficazmente ejercicios según el grupo muscular seleccionado o aquellos sin grupo asignado. Específicamente:
+
+Confirmar que los filtros por grupo muscular específico solo muestren ejercicios asociados a esos grupos.
+Verificar que el filtro "NINGUNO" muestre correctamente los ejercicios sin grupo muscular asignado.
+Evaluar la interfaz de usuario para garantizar que los cambios de filtro se reflejen de manera eficiente y correcta.
+
+2. Desarrollo de la Prueba
+
+HU: Filtrar Ejercicio por Grupo Muscular
+
+Casos Comprobados:
+
+Aplicación de filtros individuales para cada grupo muscular y validación de que solo se muestran los ejercicios correspondientes.
+Funcionamiento del filtro "NINGUNO" para asegurar que se muestren los ejercicios que no tienen un grupo muscular asignado.
+Prueba de la capacidad de la interfaz para manejar cambios rápidos y múltiples entre diferentes filtros sin errores o retrasos.
+Comprobación de la funcionalidad al combinar varios filtros y verificar que la respuesta es la esperada.
+
+3. Resultados
+
+Todos los filtros por grupo muscular funcionaron correctamente, mostrando solo los ejercicios que corresponden a cada categoría seleccionada.
+El filtro "NINGUNO" fue efectivo y preciso, mostrando exclusivamente los ejercicios que no tienen un grupo muscular asignado, conforme a lo esperado.
+La interfaz respondió adecuadamente a la activación y desactivación de los filtros, con actualizaciones visuales inmediatas que reflejan los cambios de selección de manera efectiva.
+La aplicación manejó bien la combinación de múltiples filtros, permitiendo a los usuarios ver ejercicios que coincidían con cualquier grupo muscular seleccionado sin problemas de rendimiento o errores.

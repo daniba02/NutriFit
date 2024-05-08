@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Presentacion.Rutinas.AddRutinaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/img_5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="28dp"
+        android:text="Creando una rutina"
+        android:textSize="20sp"
+        android:textStyle="normal|bold">
+    </TextView>
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp">
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/RutinaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Titulo*"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Grupo Muscular"
+            android:textSize="15sp" />
+
+
+        <Spinner
+            android:id="@+id/spinnerCrearRutinaGrupoMusc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@color/transparent"
+            android:pointerIcon="context_menu"
+            android:popupElevation="20dp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/RutinaDetails"
+        android:layout_width="391dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_text"
+        android:ems="10"
+        android:fadeScrollbars="true"
+        android:gravity="start|top"
+        android:hint="Descripción de la Rutina"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
